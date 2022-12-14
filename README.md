@@ -16,7 +16,7 @@ Here is a step-by-step process of setting this chat box up for your stream!
 
 ![Screenshot1](assets/readmeScreenshots/browserSource.png)
 
-2. Paste the following link into the URL field of the browser source. Remember to put your username in the link or this will now work!!!
+2. Paste the following link into the URL field of the browser source. **Remember to put your username in the link or this will now work!** Also, set the Width to 650 and the Height to 320.
 
 https://noahhalgren.github.io/FinalFantasyXIVChatBox?twitch=YOUR-TWITCH-USERNAME
 
