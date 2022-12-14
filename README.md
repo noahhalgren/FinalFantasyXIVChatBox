@@ -36,6 +36,8 @@ img.emote { width: 14px; }
 4. Ta-Da! Everything should be working now. Happy streaming warriors or light!
 
 ![Screenshot4](assets/readmeScreenshots/chatBoxWorking.png)
+
+*Above screenshot taken from https://www.twitch.tv/varenikiy*
 ## Features
 
 This chat box was designed to perfectly hide the in-game chat while also showing off your own chat. There are a number of key features to mention!
