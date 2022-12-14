@@ -1,0 +1,71 @@
+html, body {
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+img.bar {
+    float: left;
+}
+
+img.emote {
+    width: 14px;
+}
+
+div.out {
+    background-color: black;
+    width: 525px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 10px black;
+}
+
+#chat {
+    width: 505px;
+    height: 200px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+    #chat::-webkit-scrollbar {
+        display: none;
+    }
+
+    #chat ul {
+        list-style-type: none;
+        list-style-position: outside;
+        position: relative;
+    }
+
+    #chat li {
+        padding-bottom: 4px;
+        color: white;
+    }
+
+        #chat li.mod {
+            font-weight: bold;
+        }
+
+        #chat li.highlighted {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+@keyframes slide-in-right {
+    from {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#chat li:last-of-type {
+    animation-name: slide-in-right;
+    animation-duration: 0.15s;
+    animation-timing-function: ease-in;
+}
