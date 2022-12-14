@@ -13,8 +13,8 @@ ComfyJS.onChat = (user, message, flags, self, extra) => {
 
 	newMessage.style.color = pastelHex(extra.userColor);
 
-	console.log("OG Color: " + extra.userColor);
-	console.log("New Color: " + newMessage.style.color);
+	// console.log("OG Color: " + extra.userColor);
+	// console.log("New Color: " + newMessage.style.color);
 
     chat.append(newMessage);
 }
@@ -86,4 +86,13 @@ const urlParams = new URLSearchParams(queryString);
 
 var chat = document.querySelector("#chat>ul");
 
-ComfyJS.Init(urlParams.get('twitch'));
+var user = urlParams.get('twitch');
+console.log(user);
+
+if (user != null) {
+	ComfyJS.Init(user);
+} else {
+	alert("You have not put a twitch username in the URL, please use the following link: https://noahhalgren.github.io/FinalFantasyXIVChatBox?twitch=[YOUR-TWITCH-USERNAME]");
+}
+
+
