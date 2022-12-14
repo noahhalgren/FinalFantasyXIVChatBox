@@ -3,6 +3,8 @@
 
 A twitch chat box modeled after the in-game chat box in Final Fantasy XIV!
 
+The chat box is set up to perfectly mask the in-game chat box, allowing you to show off your own chat on stream while also covering up the in-game chat without breaking the look and feel of FFXIV
+
 
 ## How to use
 
@@ -31,7 +33,7 @@ img.emote { width: 14px; }
 
 4. Ta-Da! Everything should be working now. Happy streaming warriors or light!
 
-![Screenshot4](assets/readmeScreenshots/)
+![Screenshot4](assets/readmeScreenshots/chatBoxWorking.png)
 ## Features
 
 There are many features to mention but I dont have time to write them out with screenshots and all right now so sit tight please and thanks!
