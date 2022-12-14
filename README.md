@@ -10,13 +10,13 @@ Here is a step-by-step process of setting this chat box up for your stream!
 
 1. Create a new Browser source. Name it whatever you'd like.
 
-![Screenshot1](assets/readmeScreenshots/)
+![Screenshot1](assets/readmeScreenshots/browserSource.png)
 
 2. Paste the following link into the URL field of the browser source. Remember to put your username in the link or this will now work!!!
 
 https://noahhalgren.github.io/FinalFantasyXIVChatBox?twitch=YOUR-TWITCH-USERNAME
 
-![Screenshot2](assets/readmeScreenshots/)
+![Screenshot2](assets/readmeScreenshots/browserSourceSettings.png)
 
 3. **VERY IMPORTANT!!** Replace the custom CSS box with the following CSS:
 
@@ -27,7 +27,7 @@ img.emote { width: 14px; }
 
 **If you skip this step, the background will not be transparent**. Additionally, you can modify the text size and emote size by adjusting the px numbers in this field.
 
-![Screenshot3](assets/readmeScreenshots/)
+![Screenshot3](assets/readmeScreenshots/customStyleSettings.png)
 
 4. Ta-Da! Everything should be working now. Happy streaming warriors or light!
 
