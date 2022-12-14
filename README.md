@@ -5,6 +5,8 @@ A twitch chat box modeled after the in-game chat box in Final Fantasy XIV!
 
 The chat box is set up to perfectly mask the in-game chat box, allowing you to show off your own chat on stream while also covering up the in-game chat without breaking the look and feel of FFXIV
 
+## Usage Agreement
+All I ask is that you credit me and provide a link back to this page so other streamers can use this chat box as well.
 
 ## How to use
 
@@ -40,13 +42,16 @@ This chat box was designed to perfectly hide the in-game chat while also showing
 
 - Many colors supported! 
 The color of a chatter in the chat box will be determined by their selected color on twitch.
+
 ![Screenshot5](assets/readmeScreenshots/colorsChange.png)
 
 - Emotes supported! 
 Emotes will apear in the chat box! You can also adjust their size using the custom CSS from step 3 of the setup.
+
 ![Screenshot6](assets/readmeScreenshots/emotesSupported.png)
 
 - Highlighted messages supported! 
 When a chatter uses channel points to highlight a message it will apear as italicized and bolded! Additionally, moderators and broadcasters will allways apear bolded.
+
 ![Screenshot7](assets/readmeScreenshots/specialChats.png)
 
