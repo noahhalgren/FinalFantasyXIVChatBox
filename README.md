@@ -36,4 +36,14 @@ img.emote { width: 14px; }
 ![Screenshot4](assets/readmeScreenshots/chatBoxWorking.png)
 ## Features
 
-There are many features to mention but I dont have time to write them out with screenshots and all right now so sit tight please and thanks!
+This chat box was designed to perfectly hide the in-game chat while also showing off your own chat. There are a number of key features to mention!
+
+- Many colors supported! The color of a chatter in the chat box will be determined by their selected color on twitch.
+![Screenshot5](assets/readmeScreenshots/colorsChange.png)
+
+- Emotes supported! Emotes will apear in the chat box! You can also adjust their size using the custom CSS from step 3 of the setup.
+![Screenshot6](assets/readmeScreenshots/emotesSupported.png)
+
+- Highlighted messages supported! When a chatter uses channel points to highlight a message it will apear as italicized and bolded! Additionally, moderators and broadcasters will allways apear bolded.
+![Screenshot7](assets/readmeScreenshots/specialChats.png)
+
